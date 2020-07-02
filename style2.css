@@ -1,0 +1,325 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat',
+    sans-serif;
+}
+
+.m-container {
+  width: 1920px;
+  background-color: #30BCC9;
+  background-position: 50% 130%;
+  height: 3335px;
+  position: relative;
+}
+
+.img-container {
+  height: 800px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("img/main-back.jpg") no-repeat center/100%;
+
+}
+
+a {
+  text-decoration: none;
+  margin-bottom: 15px;
+  color: white;
+}
+
+
+.head~a:hover {
+  color: #FFC41E;
+  text-decoration: underline;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  height: 90px;
+  border-bottom: 1px solid #FFFFFF;
+
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: -100px;
+}
+
+.logo img {
+  scale: 0.75;
+
+}
+
+.side-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.language {
+  display: flex;
+}
+
+.side-buttons {
+  display: flex;
+  align-content: center
+}
+
+.search-button {
+  margin-right: 70px;
+}
+
+.language p {
+  color: white;
+}
+
+.menu-entry {
+  padding: 20px;
+  color: white;
+}
+
+.expo {
+  display: block;
+  font-size: 64px;
+}
+
+.description {
+  font-size: 20px;
+}
+
+.brand {
+  position: relative;
+  color: white;
+  top: 134px;
+  left: 403px;
+}
+
+.about-link {
+  display: flex;
+}
+
+.about {
+  font-size: 16px;
+  margin-right: 5px;
+  color: white;
+}
+
+.tiles {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  top: 10px;
+  left: 1015px;
+  width: 540px;
+  height: 353px;
+
+}
+
+.tile {
+  width: 255px;
+  height: 148px;
+  border-radius: 5px;
+
+}
+
+.tile h2 {
+  font-size: 16px;
+}
+
+.about-link {
+  font-size: 13px;
+}
+
+h2+a {
+  margin-left: 35px;
+  line-height: 1;
+}
+
+.tile h2 {
+  margin-top: 30px;
+  margin-left: 35px;
+  font size: 21px;
+  color: white;
+
+}
+
+.calendar-tile {
+  background-color: #2378FC;
+}
+
+.how-to-get-tile {
+  background-color: #30BCC9;
+}
+
+.invite-tile {
+  background-color: #FFC41E;
+  height: 175px;
+}
+
+.map-tile {
+  background-color: #F6404F;
+  height: 175px;
+}
+
+.info {
+  position: relative;
+  width: 1920px;
+  height: 426px;
+  background-color: #2378FC;
+
+}
+
+.info-container {
+  position: absolute;
+  width: 1214px;
+  height: 276px;
+  display: flex;
+  margin-left: 350px;
+  margin-top: 75px;
+  justify-content: space-between;
+}
+
+.head,
+.info-item {
+  color: white;
+}
+
+.head {
+  font-size: 25px;
+}
+
+.organizer,
+.exponent,
+.visitor,
+.press {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start
+}
+
+.event-list {
+  position: relative;
+  width: 1920px;
+  height: 984px;
+  background-color: #FFC41E;
+}
+
+.event-head {
+  position: relative;
+  width: 350px*3+60px;
+  top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.event-arrow {
+  display: flex;
+  align-items: center;
+  color: #000;
+}
+
+a p:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+.all-event-arrow {
+  margin-left: 15px;
+}
+
+.event-tiles {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1110px;
+  margin: 100px auto 0;
+
+}
+
+.event-tile {
+  display: flex;
+  width: 350px;
+  flex-direction: column;
+}
+
+.event-tile h4 {
+  display: block;
+  color: #F6404F;
+  font-size: 21px;
+  font-weight: 900;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.news-ads {
+  display: flex;
+
+  position: relative;
+  background-color: #FAF3E3;
+  justify-content: space-between;
+  height: 649px;
+}
+
+.news-container {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  width: 1110px;
+  margin: 75px auto;
+  height: 489px;
+}
+
+.adware {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.news-cards {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.news-card {
+  display: flex;
+}
+
+.news-card img {
+  margin-right: 30px;
+}
+
+.news-card .date {
+  color: #F6404F;
+}
+
+.news-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.news-more {
+  margin-right: 15px;
+  color: #2E373B;
+}
+
+.news-link {
+  display: flex;
+  align-items: center;
+}
+
+.footer-container {
+  width: 1110px;
+}
