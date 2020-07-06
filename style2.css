@@ -15,7 +15,7 @@ body {
 }
 
 .img-container {
-  height: 800px;
+  height: 700px;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("img/main-back.jpg") no-repeat center/100%;
 }
 
@@ -79,8 +79,15 @@ li {
 }
 
 .menu-entry {
+
   padding: 20px;
   color: white;
+}
+
+.main-screen {
+
+  min-width: 1110px;
+  position: relative;
 }
 
 .expo {
@@ -97,7 +104,7 @@ li {
   position: relative;
   color: white;
   top: 134px;
-  left: 403px;
+  left: 20%;
   max-width: 600px;
 }
 
@@ -117,13 +124,14 @@ li {
 }
 
 .tiles {
+
   position: relative;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: space-between;
-  top: 10px;
-  left: 1015px;
+
+  right: -55%;
   width: 540px;
   height: 353px;
 }
@@ -176,14 +184,16 @@ h2+a {
   position: relative;
   height: 426px;
   background-color: #2378FC;
+  display: flex;
+  justify-content: center;
 }
 
 .info-container {
   position: absolute;
-  width: 1214px;
+  width: 1014px;
   height: 276px;
   display: flex;
-  margin-left: 300px;
+  margin-left: auto;
   margin-top: 75px;
   justify-content: space-between;
 }
@@ -316,13 +326,21 @@ a p:hover {
   align-items: center;
 }
 
+.footer {
+  position: relative;
+  display: flex;
+
+}
+
 .footer-container {
   position: relative;
-  left: 405px;
-  width: 1110px;
   display: flex;
   position: relative;
   justify-content: space-between;
+  min-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .footer h5 {
@@ -338,11 +356,13 @@ a p:hover {
   font-weight: normal;
   font-size: 12px;
   line-height: 135%;
+
 }
 
 .footer a:hover {
   text-decoration-line: underline;
   color: #FFC41E;
+  transition: 0.2s;
 }
 
 .social-buttons {
