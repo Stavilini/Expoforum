@@ -185,7 +185,8 @@ h2+a {
   justify-content: space-between;
 }
 
-.head, .info-item {
+.head,
+.info-item {
   color: white;
 }
 
@@ -193,7 +194,10 @@ h2+a {
   font-size: 25px;
 }
 
-.organizer, .exponent, .visitor, .press {
+.organizer,
+.exponent,
+.visitor,
+.press {
   display: flex;
   flex-direction: column;
   justify-content: flex-start
@@ -319,8 +323,6 @@ a p:hover {
   justify-content: space-between;
 }
 
-.quart {}
-
 .footer h5 {
   color: white;
   font-style: normal;
@@ -339,4 +341,40 @@ a p:hover {
 .footer a:hover {
   text-decoration-line: underline;
   color: #FFC41E;
+}
+
+.social-buttons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.subscribe {
+  width: 215px;
+  height: 40px;
+  padding-left: 15px;
+}
+
+.mail-button {
+  width: 40px;
+  height: 40px;
+  background-color: #F6404F;
+  justify-content: center;
+  align-items: center;
+}
+
+.mail-button img {
+  position: relative;
+  top: 12px;
+  left: 12px;
+}
+
+.subscribe-container {
+  display: flex;
+}
+
+.app-buttons {
+  display: flex;
+  flex-direction: column;
+
 }
